@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Documentaci&oacute;n API de Datos Abiertos Bogot&aacute;">
+	<meta name="keywords" content="bogota,api,docs">
+	<meta name="author" content="AlejandroCR<alejandrocr.1024@gmail.com>">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="licence" content="MIT">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<style type="text/css">
+		table.table-params td * {
+			width: 10em;
+		}
+	</style>
+
+	<title>Datos Abiertos Bogot&aacute; API</title>
+</head>
+<body class="container-fluid">
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<span class="navbar-brand" href="#" target="_blank">Generador de enlaces</span>
+			<img style="width: 10%; height: 20%;" src="https://bogota.gov.co/coronavirus-en-bogota/images/logo-bogota.svg" alt="logo bogota">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="https://bogota.gov.co/coronavirus-en-bogota/" target="_blank">Coronavirus En Bogot&aacute;</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="https://datosabiertos.bogota.gov.co/api/3/action/help_show?name=help_show" target="_blank">Documentaci&oacute;n Oficial</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>	
+	</header>
+
+	<main>
+
+		<section id="url-field-section">
+			<div class="input-group mb-3 mt-3">
+			  <div class="input-group-prepend">
+			    <button id="copy-button" class="btn btn-outline-secondary" type="button">Copiar</button>
+			  </div>
+			  <input id="url-field" type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+			</div>
+		</section>
+		
+		<section id="param-table-section">
+			<table class="table table-sm table-bordered table-params">
+			  <thead class="thead-dark">
+			    <tr>
+			      <th scope="col">Incu&iacute;r</th>
+			      <th scope="col">Par&aacute;metro</th>
+			      <th scope="col">Valor</th>
+			      <th scope="col">Tipo</th>
+			      <th scope="col">Predeterminado</th>
+			      <th scope="col">Descripci&oacute;n</th>
+			    </tr>
+			  </thead>
+			  <tbody id="param-table-body"></tbody>
+			</table>
+		</section>
+	
+	</main>
+
+	<aside></aside>
+
+	<footer class="page-footer font-small blue">
+	  <div class="footer-copyright text-center py-3">
+	  	Licencia:
+	  	<a target="_blank" href="https://github.com/twbs/bootstrap/blob/master/LICENSE">MIT</a>
+	  	Autor:
+			<a target="_blank" href="mailto:alejandrocr.1024@gmail.com">AlejandroCR</a>
+			in 2020
+	  </div>
+	</footer>
+
+	<script async defer type="text/javascript" src="scripts.js"></script>
+	
+</body>
+</html>
