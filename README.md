@@ -1,6 +1,6 @@
 # Bogota API Tool
 
-### Instalación 🔧
+## Instalación 🔧
 
 Debes descargar el proyecto
 
