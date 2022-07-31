@@ -1,4 +1,4 @@
-# Bogota API Tool
+# Colombia Covid19 API Tool
 
 ## 🔧 Instalación
 
